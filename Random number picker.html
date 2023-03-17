@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Number Example</title>
+</head>
+<body>
+	<h1>Random Number: <span id="randomNumber"></span></h1>
+
+	<script>
+		// Generate a random number between 1 and 10
+		var randomNum = Math.floor(Math.random() * 10) + 1;
+
+		// Display the number on the screen
+		document.getElementById("randomNumber").innerHTML = randomNum;
+	</script>
+</body>
+</html>
